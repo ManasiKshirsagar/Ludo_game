@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* display: flex; */
+}
+
+.whole_container{
+    /* text-align: center; */
+    height: 680px;
+    width: 690px;
+    display: flex;
+     justify-content:space-evenly;
+   
+    background-color: rgb(241, 171, 171);
+}
+
+.home_box{
+    height: 240px;
+    width: 245px;
+    display: inline-block;
+    /* border-left: 2px solid black;  */
+    /* margin: 30px;    */
+}
+#box1{
+    /* margin-right: 150px; */
+    background-color: green;
+}
+
+#box2{
+    margin-top: 220px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: yellow;
+}
+
+#box3{
+    margin-left: 0px;
+    margin-top: 0px;
+    
+    margin-right: 0px;
+    background-color: red;
+}
+
+#box4{
+    margin-left: 0px;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    background-color: blue;
+}
+.inner_home{
+    height: 150px;
+    width: 150px;
+    margin: 45px;
+    background-color: white;
+    border: 3px dashed black;
+    border-radius: 10%;
+}
+
+.circle1{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border: 3px solid palegoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.circle2{
+    height: 50px;
+    width: 50px;
+    border: 3px solid palegoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+
+    background-color: yellow;
+}
+
+.circle3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(235, 34, 15);
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid palegoldenrod;
+    margin-top: 15px;
+    margin-left: 15px;
+
+    background-color: red;
+}
+
+.circle4{
+    height: 50px;
+    width: 50px;
+    border: 3px solid palegoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: blue;
+}   
+
+.col_row_main{
+    display: inline-block;
+    height: 240px;
+    width: 200px;
+    background-color: antiquewhite;
+    margin-top:0px;
+    /* margin-left: 240px; */
+    position: absolute;
+}
+
+.row{
+    height:38px;
+    width:65px;
+    background-color: white;
+    border: 1px solid black;
+    float: left;
+}
+
+.row1{
+    height: 39px;
+    width:66px;
+    /* margin-left: 66px; */
+    margin-top: 0px;
+    background-color: red;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+ .row2{
+    /* height: 73px;
+    width: 39px;
+      background-color: bisque;
+      float: left; */
+    height:39px;
+    width:70px;
+    background-color: white;
+    border: 1px solid black;
+    float: left;
+    margin: 0px;
+} 
+
+/* .col_row_main1{
+    display: inline-block;
+    height: 240px;
+    width: 200px;
+    background-color: antiquewhite;
+    /* margin-left: 240px; */
+    /* position:absolute;
+    margin-top: 200px; 
+    margin-right: 0px; 
+    margin-bottom:0px;
+    margin-left: 0px;
+}    */
+
+.col_row_main1{
+    height: 250px;
+    width: 240px;
+    /* background-color: antiquewhite; */
+    margin:0px;
+    /* margin-left: 240px; */
+    position: absolute;
+     rotate: 90deg; 
+}
+img{
+    height: 220px;
+    width: 200px;
+    margin-top: 238px;
+    margin-left: 2px;
+}
+
+.col_row_main3{
+    height: 270px;
+    width: 200px;
+    /* background-color: antiquewhite; */
+    margin-top:0px;
+    /* margin-left: 240px; */
+    position: absolute;
+    rotate: 0deg;
+}
+
+.img_1{
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+    margin-left: 18px
+}
+
+.img_2{
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+    margin-left: 23px;
+    rotate: 50deg;
+}
+
+.circle1:hover{
+   border: 5px solid palegoldenrod;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+.circle2:hover{
+    border: 5px solid palegoldenrod;
+     margin-top: 10px;
+     margin-left: 10px; 
+ }
+
+ .circle3:hover{
+    border: 5px solid palegoldenrod;
+     margin-top: 10px;
+     margin-left: 10px; 
+ }
+
+ .circle4:hover{
+    border: 5px solid palegoldenrod;
+     margin-top: 10px;
+     margin-left: 10px; 
+ }
+
+ .color_box:hover{
+    opacity: 0.5;
+ }
